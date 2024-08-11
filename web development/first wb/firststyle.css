@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+header{
+    /* border: 2px solid rgb(215, 17, 17); */
+    /* height: 100px; */
+    /* text-align:center; */
+    background-color: rgb(228, 178, 112);
+    
+    padding:   50px;
+}
+header>a{
+    color: white;
+    cursor: pointer;
+    margin: 20px 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: rgb(228, 178, 112); */
+    /* padding: 100% 33.3% 0% 33.3%; */
+    /* padding:   50px; */
+    
+
+}
+header >a:hover{
+    color: blue;
+}
+section{
+    /* border: 2px solid black; */
+    /* background-image:linear-gradient(to bottom,gray,white)); */
+    margin: auto;
+    height: 550px;
+    width: 1000px;
+    background-image:linear-gradient(to bottom,rgb(54, 52, 52),rgb(190, 178, 178));
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    /* text-shadow: 20px white; */
+}
+section>h1{
+   
+    text-shadow: 0 0 50px rgb(252, 250, 250);
+   
+    
+}
+section>img{
+    width: 700px;
+    height: 293px;
+}
+footer{
+    /* border: 2px solid green; */
+    margin: auto;
+    width: 1000px;
+
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+footer >a:hover{
+    color: blue;
+}
+footer>a{
+    padding: 100px;
+    /* border: 2px solid yellow; */
+    /* box-sizing: border-box; */
+    padding: 0px;
+}

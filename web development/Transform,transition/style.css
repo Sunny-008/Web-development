@@ -1,0 +1,31 @@
+#box1{
+    /* transition-duration: 2s; 
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+    /* transition: backgrond-color 1s ease-in 1s; */
+    /* transition: backgrond-color 1s,color 1s ease-in 1s; */
+    /* transition: all  1s ease-in; */
+    transition: all 0.5s;
+    
+}
+.box:hover{
+    background-color: orange;
+    color: blue;
+    /* width: 80%; */
+    /* height: 100px; */
+    /* box-shadow: -10px -10px 10px black; */
+    box-shadow: 0 0 20px black;
+    transform:skewY(30deg);
+    transform:scale(2);
+}body{
+    margin: 0%;
+}
+.box{
+    width: 100px ;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font: bold 2rem cursive;
+    margin: 2vmax;
+}

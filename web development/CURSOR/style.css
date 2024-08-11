@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* cursor: none; */
+}
+.cursor{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    /* border: 2px solid red; */
+    background-color: #fff;
+    position: absolute;
+    pointer-events: none;
+    
+
+}
+.cursor::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    padding: 14px;
+    top: -15px;
+    left: -15px;
+    border: 1px solid white;
+    position: absolute;
+    animation: cursuorHover 0.7s infinite linear alternate;
+  
+
+}
+.container{
+    background-color: rgb(82, 80, 80);
+    width: 100%;
+    height:100vh ;
+    
+}
+/* .container2{
+    background-color: rgb(226, 15, 15);
+    width: 100%;
+    height:100vh ;
+    
+} */
+
+@keyframes cursuorHover{
+    from{
+        transform: scale(1);
+        opacity: 0.1;
+    }
+    to{
+        transform: scale(1.3);
+        opacity: 0.5;
+
+    }
+}
+button{
+    padding: 20px 40px;
+    background-color: yellow;
+    color: black;
+    font: 400 1.2rem sans-serif;
+    border-radius: 5px;
+    border: none;
+
+}
+button:hover{
+    background-color: rgb(240, 108, 46);
+}
+    

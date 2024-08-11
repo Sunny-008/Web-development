@@ -1,0 +1,103 @@
+ /* *{
+    background-color: rgb(205, 171, 85);
+} */
+
+
+
+
+
+h1{
+    /* padding: 100px; */
+    /* margin: 100px; */
+ /* background-color: gray; */
+ font-size: 120px;
+ text-align: center;
+ text-decoration:underline;
+ text-shadow: 0 0 50px rgb(235, 230, 230);
+ /* width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px; */
+
+
+}.custom{
+    color: rgb(214, 220, 171);
+   
+}
+
+p{
+    color: white;
+    /* background-color: rgba(226, 216, 216, 0.879); */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+}
+/* .custom{
+    color: red;
+} */
+
+.attribute{
+    color: red;
+    /* background-color: aliceblue; */
+}
+a[href="google"] {
+    color: rgb(216, 18, 18);
+}
+
+em,span{
+    color: green;
+}
+
+span > p{
+    color:yellow;
+}
+
+li li{
+    color: white;
+}
+h1+p{
+    color: yellow;
+}
+h1~p{
+    color: white;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/17789647/pexels-photo-17789647.jpeg?cs=srgb&dl=pexels-pramodtiwari-17789647.jpg&fm=jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+div{
+    color: white;
+    font-size: 50px;
+
+}
+ul >li{
+    font-size: 30px;
+    list-style: inside square ;
+    /* list-style-position: inside; */
+    /* list-style-type: square; */
+    /* list-style-type: decimal; */
+    /* list-style-image: url(""); */
+}
+.small{
+    margin: 0px 50px 50px 550px;
+    border: 7px solid rgb(237, 20, 20);
+    background-color: white;
+    color: rgba(31, 27, 27, 0.995);
+    width: 300px;
+    height: 500px;
+    padding: 25px;
+    overflow: auto;
+
+}
+.ok
+{
+background-color: gray;
+}
+.ok >h1{
+    border: dashed  black;
+    margin: 20px;
+    background-color: rgb(22, 64, 105);
+}

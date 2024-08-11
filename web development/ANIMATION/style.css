@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+}
+.box{
+    width: 100px ;
+    height: 100px;
+    /* background-color: black; */
+    color: white;
+    font: bold 2rem cursive;
+    margin: 2vmax;
+}
+#box1{
+    /* animation-name: myanimation;
+    animation-duration: 1s;
+    animation-timing-function:ease-out; */
+    /* animation-fill-mode: forwards; */
+    /* animation-iteration-count: 5; */
+    /* animation-iteration-count: infinite; */
+    /* animation: myanimation 10s linear 1s infinite alternate; */
+    animation: myanimation 2s linear infinite;
+    border-top: 10px solid gray;
+    border-radius: 100%;
+
+}
+@keyframes myanimation{
+    /* from{
+        background-color: red;
+
+    }
+    to{
+        background-color: yellow;
+
+  }*/
+  0%{
+     /* background-color: red; */
+    /* transform: scale(2); */
+
+    transform:rotate(0deg); 
+
+  }
+  /* 50%{
+    border-radius: 100%;
+
+  } */
+  100%{
+    /* background-color: gray; */
+    /* transform: scale(20); */
+    transform:rotate(360deg); 
+
+  }
+
+}
